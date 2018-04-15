@@ -1,0 +1,37 @@
+
+
+import requests
+{
+  "data": [
+    [
+      48.75608,
+      2.302038
+    ],
+    [
+      0,
+      0
+    ]
+  ]
+}{
+  "data": [
+    [
+      48.75608,
+      2.302038
+    ],
+    [
+      0
+      0    ]  ]}
+
+dht_info = {'H': 'OFF', 'T': 'ON'}
+r = requests.post("http://127.0.0.1:5000/dht", data=dht_info)
+
+print (r.text)
+
+
+
+
+
+
+
+
+

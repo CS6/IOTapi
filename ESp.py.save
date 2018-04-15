@@ -1,0 +1,117 @@
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                        • MobaXterm 10.5 •                          │
+     │            (SSH client, X-server and networking tools)             │
+     │                                                                    │
+     │ ➤ SSH session to sddivid@monospace-iot.trunksys.com                │
+     │   • SSH compression : ✔                                            │
+     │   • SSH-browser     : ✔                                            │
+     │   • X11-forwarding  : ✔  (remote display is forwarded through SSH) │
+     │   • DISPLAY         : ✔  (automatically set on remote server)      │
+     │                                                                    │
+     │ ➤ For more info, ctrl+click on help or visit our website           │
+     └────────────────────────────────────────────────────────────────────┘
+
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-62-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+173 個套件可以更新。
+95 個屬於安全性更新
+
+
+Last login: Mon Apr 16 00:21:51 2018 from 211.72.239.241
+sddivid@iot:~$ nano server.py
+sddivid@iot:~$ cd IOTapi/
+sddivid@iot:~/IOTapi$ nano server.py
+sddivid@iot:~/IOTapi$ python3 BB.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
+
+sddivid@iot:~/IOTapi$ nano server.py
+sddivid@iot:~/IOTapi$ ls
+app.py  dht.py      GG.py      requirements.txt  server2.py  server.py
+BB.py   get-pip.py  README.md  root.py           server3.py
+sddivid@iot:~/IOTapi$ nano dht.py
+sddivid@iot:~/IOTapi$ nano io.py
+sddivid@iot:~/IOTapi$ nano dht.py
+sddivid@iot:~/IOTapi$ nano io.py
+sddivid@iot:~/IOTapi$ python3 io.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+sddivid@iot:~/IOTapi$ python3 io.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+sddivid@iot:~/IOTapi$ nano io.py
+sddivid@iot:~/IOTapi$ nano io.py
+sddivid@iot:~/IOTapi$ python3 io.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+sddivid@iot:~/IOTapi$ python3 io.py
+OFF
+sddivid@iot:~/IOTapi$ python3 io.py
+OFF
+sddivid@iot:~/IOTapi$ python3 io.py
+OFF
+sddivid@iot:~/IOTapi$ python3 io.py
+OFF
+sddivid@iot:~/IOTapi$ nano io.py
+sddivid@iot:~/IOTapi$ nano io2.py
+sddivid@iot:~/IOTapi$ nano ESp.py
+  GNU nano 2.5.3                 檔案: ESp.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     [ 新檔案 ]
+^G 求助       ^O Write Out  ^W 搜尋       ^K 剪下文字   ^J 對齊       ^C 游標位置
+^X 離開       ^R 讀檔       ^\ 置換       ^U Uncut Text ^T To Linter  ^_ 跳列
+

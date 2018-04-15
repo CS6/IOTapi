@@ -3,9 +3,15 @@ import time
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['POST'])
 def hello_world():
-    return ('hello world')
+    return ('welcome')
+    #return (request.form.get('nickname', default='little apple'))
+
+
+
+
+
 
 @app.route('/register', methods=['POST'])
 def register():
@@ -15,7 +21,9 @@ def register():
     print (request.form.get('name'))
     print (request.form.getlist('name'))
     print (request.form.get('nickname', default='little apple'))
-    return ('welcome')
+    return (request.form.get('nickname', default='little apple'))
+
+    #return ('welcome')
 
 
 
@@ -53,4 +61,5 @@ def dht():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+   # app.run(debug=True)
+    app.run(host='0.0.0.0')
