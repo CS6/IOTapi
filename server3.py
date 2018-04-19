@@ -3,6 +3,7 @@
 from flask import Flask
 from flask import request
 
+global  io
 
 app = Flask(__name__)
 
@@ -26,13 +27,20 @@ def dht():
     return (request.form['T'])
 
 
-@app.route('/about')
+@app.route('/about', methods=['POST'] )
 def about():
-    num='AA'
-    if  request.form["data"] != Null:
-        print (request.form["data"])
-        num=request.form["data"]
-    return  num
+    print (request.headers)
+    print (request.form)
+    print (request.form['data'])
+    return  (request.form['data'])
+    io == request.form['data']
+
+@app.route('/about')
+def aboutGet():
+    return  (io)
+
+
+
 
 
 
@@ -40,7 +48,7 @@ def about():
 
 if __name__ == '__main__':
    # app.run(debug=True)
-    app.run(host='0.0.0.0')
+    app.run(debug=True,host='0.0.0.0')
 
 
 
